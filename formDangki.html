@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .container {
+
+            width: 502px;
+
+            margin: auto;
+
+            border: 1px solid #d3d3d3;
+
+            box-shadow: 1px 1px 7px #ccc;
+
+        }
+
+        .container .title-form {
+
+            height: 50px;
+
+            background-color: #37a0d0;
+
+            line-height: 50px;
+
+            color: #fff;
+
+            font-size: 20px;
+
+            font-weight: bold;
+
+            text-indent: 5px;
+
+            width: 100%;
+
+            text-align: center;
+
+        }
+
+        .label {
+
+            display: inline-block;
+
+            color: #737373;
+
+            margin: 10px 0 5px 43px;
+
+            font-size: 16px;
+
+        }
+
+        #myform .input {
+
+            padding: 5px;
+
+            width: 80%;
+
+            margin: auto;
+
+            display: block;
+
+            border: 1px solid #d3d3d3;
+
+            height: 20px
+        }
+
+        .error {
+
+            color: red;
+
+            width: 80%;
+
+            margin: auto;
+
+            display: block;
+
+        }
+
+        .registerAccount {
+
+            color: #fff;
+
+            background-color: #50add8;
+
+            border: 1px solid #76afc2;
+
+            height: 30px;
+
+            margin: auto;
+
+            display: block;
+
+            margin-bottom: 10px;
+
+            margin-top: 10px;
+
+        }
+    </style>
+
+    <div class=”container”>
+
+        <div class=”title-form”>Đăng ký tài khoản</div>
+
+        <form action=”” id=”myform”>
+
+            <div>
+
+                <label class=”label” for=””>Tên</label>
+
+                <input class=”input” type=”text” name=”username”>
+
+            </div>
+
+            <div>
+
+                <label class=”label” for=””>Email</label>
+
+                <input class=”input” type=”text” name=”email”>
+
+            </div>
+
+            <div>
+
+                <label class=”label” for=””>Mật khẩu</label>
+
+                <input class=”input” id=”password” type=”password” name=”password”>
+
+            </div>
+
+            <div>
+
+                <label class=”label” for=””>Xác nhận mật khẩu</label>
+
+                <input class=”input” type=”password” name=”confirmPassword”>
+
+            </div>
+
+            <div>
+
+                <label class=”label” for=””>Số điện thoại</label>
+
+                <input class=”input” type=”text” name=”phoneNumber”>
+
+            </div>
+
+            <div>
+
+                <label class=”label” for=””>Nhập địa chỉ</label>
+
+                <input class=”input” type=”text” name=”address”>
+
+            </div>
+
+            <input style=”cursor:pointer;” class=”registerAccount” type=”submit” value=”TẠO TÀI KHOẢN”>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
