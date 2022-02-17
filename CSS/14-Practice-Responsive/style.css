@@ -45,7 +45,7 @@ article div {
 }
 .introduction-menu {
     width: 25%;
-    height: 200px;
+    /* height: 200px; */
     margin-left: 20px;
     float: left;
     box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
