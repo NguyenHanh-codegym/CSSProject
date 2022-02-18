@@ -12,17 +12,23 @@ box-sizing: border-box;
     margin: auto;
     margin-top: 100px;
     background-color: black;
-    /* flex */
+    /* flex :
+    chiều ngang : gọi là main-axis : trục chính
+    chiều dọc : gọi là cross -axis : trục phụ
+    ;*/
     display: flex;
 flex-direction:row ;
 /* flex-wrap: nowrap; */
 justify-content: space-evenly;
 /* có nhiều loại để thử của justify-content */
 ;
+/* align-items: stretch; */
+/* khi sd stretch phải bỏ chiều cao của item */
+align-items: center;
 }
 .item {
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
     text-align: center;
     color: black;
     font-size: 100px;
