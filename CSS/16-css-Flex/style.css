@@ -36,7 +36,7 @@ align-items: center;
 }
 .item:nth-of-type(1){
     background-color: brown;
-    order = 3;
+    order: 3;
 /* 
     flex-grow: 1; */
     /* flex-shrink: 1; */
